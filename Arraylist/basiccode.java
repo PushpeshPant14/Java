@@ -27,6 +27,10 @@ public class basiccode {
         list.add(10);
         list.add(15);
         list.add(20);
+        for(int e:list){                           //dataype - int / Integer / Object koi bhi use kr skte hai
+            System.out.print(e+" ");
+        }
+        System.out.println();
         max(list);
         reverse(list);   
     }
